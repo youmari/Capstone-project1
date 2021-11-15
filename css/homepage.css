@@ -1,0 +1,71 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+}
+
+.hamb-icon {
+  width: 30px;
+  height: 30px;
+  margin-top: 12px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.menu-links {
+  display: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+header,
+.headline {
+  background-image: url(../images/backg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-title::before {
+  content: '"Hello! Sharing World"';
+  display: block;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: 'lato';
+}
+
+.main-title{
+  font-family: 'COCOGOOSE', 'lato';
+  font-weight: 600;
+  font-size: 32px;
+  color: #ec5242;
+  margin-left: 15px;
+}
+
+.headline-description {
+  font-family: 'lato';
+  padding: 10px;
+  border: 2px solid #fff;
+  align-self: center;
+  margin:0 15px;
+}
+
+.event-date {
+  margin-left: 15px;
+  color: #272a31;
+  font-family: 'COCOGOOSE', 'lato';
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
