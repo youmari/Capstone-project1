@@ -39,6 +39,7 @@ header,
 
 .main-title::before {
   content: '"Hello! Sharing World"';
+  text-transform: none;
   display: block;
   font-size: 20px;
   font-weight: normal;
@@ -47,8 +48,9 @@ header,
 
 .main-title{
   font-family: 'COCOGOOSE', 'lato';
-  font-weight: 600;
-  font-size: 32px;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 35px;
   color: #ec5242;
   margin-left: 15px;
 }
@@ -68,4 +70,72 @@ header,
   font-weight: 600;
   font-size: 20px;
   margin-bottom: 50px;
+}
+
+.main-program {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../images/program.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-program-title {
+  font-family: 'COCOGOOSE', 'lato';
+  font-weight: normal;
+  font-size: 16px;
+  color: #fff;
+}
+
+.orange-line {
+  width: 10%;
+  border-color: #ec5242;
+  background-color: #ec5242;
+  margin: 0;
+}
+
+.program-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+.lectures {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:hsla(0, 0%, 100%, 0.61);
+  margin: 5px 15px;
+}
+
+.lectures-img {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+}
+
+.lectures-title {
+  font-family: 'COCOGOOSE', 'lato';
+  font-weight: normal;
+  font-size: 14px;
+  color: #ec5242;
+}
+
+.lectures-description {
+  margin: 10px;
+  font-family: 'COCOGOOSE', 'lato';
+  font-weight: normal;
+  font-size: 10px;
+}
+
+.main-program-btn {
+  cursor: pointer;
+  width: fit-content;
+  height: 50px;
+  background-color: #ec5242;
+  color: #fff;
+  border: none;
+  margin: 5px 0 40px 0;
 }
