@@ -37,13 +37,21 @@ header,
   flex-direction: column;
 }
 
+.headline.about-me-page {
+  align-items: center;
+}
+
 .main-title::before {
   content: '"Hello! Sharing World"';
   text-transform: none;
   display: block;
   font-size: 20px;
   font-weight: normal;
-  font-family: 'lato';
+  font-family: 'lato', sans-serif;
+}
+
+.main-title.about-me-page::before {
+  text-align: center;
 }
 
 .main-title{
@@ -55,13 +63,22 @@ header,
   margin-left: 15px;
 }
 
+.main-title.about-me-page {
+  text-align: center;
+}
+
 .headline-description {
-  font-family: 'lato';
+  font-family: 'lato', sans-serif;
   font-size: 19px;
   padding: 10px;
   border: 2px solid #fff;
   align-self: center;
   margin:0 15px;
+}
+
+.headline-description.about-me-page {
+  text-align: center;
+  background-color: #fff;
 }
 
 .event-date {
@@ -169,7 +186,8 @@ header,
   display: block;
   width: 60px;
   height: 60px;
-  background-image: repeating-linear-gradient(90deg ,black, black 5px, white 5px , white 10px);
+  background-image:url(../images/chess.png);
+  background-size: contain;
   content: '';
   position: relative;
   top: -16px;
@@ -270,6 +288,7 @@ footer {
   text-align: center;
   border-radius: 4px;
   margin: 30px 10px;
+  line-height: 30px;
 }
 
 .copy-right {
