@@ -213,7 +213,7 @@ header,
 .speaker-name {
   font-family: 'COCOGOOSE', 'lato';
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
   color: #272a31;
   margin: 0;
 }
@@ -221,7 +221,7 @@ header,
 .speaker-about {
   font-family: 'COCOGOOSE', 'lato';
   font-weight: normal;
-  font-size: 12px;
+  font-size: 16px;
   color: #ec5242;
   margin-bottom: 0;
 }
@@ -239,7 +239,7 @@ header,
   margin: 0;
   font-family: 'COCOGOOSE', 'lato';
   font-weight: normal;
-  font-size: 10px;
+  font-size: 14px;
   color: #272a31;
 }
 
