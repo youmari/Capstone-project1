@@ -57,6 +57,7 @@ header,
 
 .headline-description {
   font-family: 'lato';
+  font-size: 19px;
   padding: 10px;
   border: 2px solid #fff;
   align-self: center;
@@ -84,7 +85,7 @@ header,
 .main-program-title {
   font-family: 'COCOGOOSE', 'lato';
   font-weight: normal;
-  font-size: 16px;
+  font-size: 20px;
   color: #fff;
 }
 
@@ -119,15 +120,16 @@ header,
 .lectures-title {
   font-family: 'COCOGOOSE', 'lato';
   font-weight: normal;
-  font-size: 14px;
+  font-size: 15px;
   color: #ec5242;
+  margin: 0 10px;
 }
 
 .lectures-description {
-  margin: 10px;
-  font-family: 'COCOGOOSE', 'lato';
+  margin:10px 0;
+  font-family: 'lato', sans-serif;
   font-weight: normal;
-  font-size: 10px;
+  font-size: 14px;
 }
 
 .main-program-btn {
@@ -138,4 +140,142 @@ header,
   color: #fff;
   border: none;
   margin: 5px 0 40px 0;
+  font-family: 'COCOGOOSE', 'lato';
+  font-weight: normal;
+  font-size: 15px;
+  padding: 15px;
+}
+
+.speakers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.speakers-section-title {
+  font-family: 'COCOGOOSE', 'lato';
+  font-weight: normal;
+  font-size: 20px;
+  color: #272a31;
+}
+
+.speaker-container {
+  display: flex;
+  justify-content: flex-start;
+  margin: 40px 0;
+}
+
+.speaker-container::before {
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-image: repeating-linear-gradient(90deg ,black, black 5px, white 5px , white 10px);
+  content: '';
+  position: relative;
+  top: -16px;
+  left: 10px;
+}
+
+.speaker-info {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: -30px;
+}
+
+.speaker-img {
+  justify-self: flex-start;
+  width: 100px;
+  height: 100px;
+  z-index: 10;
+  position: relative;
+  right: 10%;
+}
+
+.speaker-name {
+  font-family: 'COCOGOOSE', 'lato';
+  font-weight: normal;
+  font-size: 16px;
+  color: #272a31;
+  margin: 0;
+}
+
+.speaker-about {
+  font-family: 'COCOGOOSE', 'lato';
+  font-weight: normal;
+  font-size: 12px;
+  color: #ec5242;
+  margin-bottom: 0;
+}
+
+.speaker-about::after {
+  display: block;
+  width: 15px;
+  height: 2px;
+  background-color: #d3d3d3;
+  content: '';
+  margin: 5px 0;
+}
+
+.talk-about {
+  margin: 0;
+  font-family: 'COCOGOOSE', 'lato';
+  font-weight: normal;
+  font-size: 10px;
+  color: #272a31;
+}
+
+.partner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #272a31;
+  background-image: url(../images/program.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.partner-title {
+  font-family: 'COCOGOOSE', 'lato';
+  font-weight: normal;
+  font-size: 20px;
+  color: #fff;
+}
+
+.partners-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+
+.partner-img {
+  width: 100px;
+  height: 100px;
+  margin: 0 15px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  text-decoration-line: none;
+  font-family: 'COCOGOOSE', 'lato';
+  font-weight: normal;
+  font-size: 20px;
+  color: #ec5242;
+  padding: 10px 10px;
+  background-color: #272a31;
+  text-align: center;
+  border-radius: 4px;
+  margin: 30px 10px;
+}
+
+.copy-right {
+  font-family: 'COCOGOOSE', 'lato';
+  font-weight: normal;
+  font-size: 14px;
+  margin: 50px 0;
+  text-align: center;
 }
