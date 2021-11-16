@@ -49,20 +49,27 @@
   align-items: center;
 }
 
+.past-event-lc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
 .past-event-link {
   text-decoration: none;
   background-image: url(../images/last1.jpg);
   background-repeat: no-repeat;
   background-size: 350px 200px;
   font-family: 'lato', sans-serif;
-  font-size: 24px;
+  font-size: 19px;
   text-align: center;
-  line-height: 210px;
+  line-height: 156px;
   color: #fff;
   cursor: pointer;
   margin: 10px 20%;
-  height: 200px;
-  width: 350px;
+  height: 150px;
+  width: 300px;
 }
 
 .past-event-link.s {
@@ -89,10 +96,34 @@
   }
 
   .past-event-link {
-    background-size: 700px 400px;
-    width: 700px;
+    background-size: 407px 231px;
+    width: 407px;
+    height: 231px;
+    line-height: 213px;
+    font-size: 24px;
+    margin: 0 5px;
+  }
+
+  .past-event-lc {
     height: 400px;
-    line-height: 400px;
-    font-size: 35px;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .logo-con {
+    width: 300px;
+    height: 90px;
+    border: 2px solid rgb(194, 194, 194);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer.footer-about {
+    background-color: #272a31;
+  }
+
+  .copy-right.about {
+    color: #fff;
   }
 }

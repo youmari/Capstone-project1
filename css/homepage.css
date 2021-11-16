@@ -137,6 +137,7 @@ header,
   background-image: url(../images/program.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
 }
 
 .main-program-title {
@@ -164,8 +165,9 @@ header,
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: hsla(0, 0%, 100%, 0.61);
-  margin: 5px 15px;
+  background-color: hsla(0, 0%, 100%, 0.137);
+  margin: 5px 3px;
+  max-width: 350px; 
 }
 
 .lectures-img {
@@ -178,7 +180,7 @@ header,
   font-family: 'COCOGOOSE', sans-serif;
   font-weight: normal;
   font-size: 15px;
-  color: #ec5242;
+  color: #fd513e;
   margin: 0 10px;
 }
 
@@ -187,7 +189,7 @@ header,
   font-family: 'lato', sans-serif;
   font-weight: normal;
   font-size: 14px;
-  color: #272a31;
+  color: rgb(255, 248, 248);
 }
 
 .main-program-btn {
@@ -250,6 +252,8 @@ header,
   font-size: 16px;
   color: #ec5242;
   margin-bottom: 0;
+  font-style: italic;
+  text-transform: lowercase;
 }
 
 .speaker-about::after {
@@ -429,13 +433,14 @@ footer {
 
   .program-list {
     flex-direction: row;
-    margin: 30px 10%;
+    margin: 30px 1%;
   }
 
   .lectures {
     flex-direction: column;
     justify-content: space-around;
     height: 200px;
+    max-width: 170px;
   }
 
   .lectures-title {
@@ -493,3 +498,4 @@ footer {
     margin-top: 25px;
   }
 }
+
