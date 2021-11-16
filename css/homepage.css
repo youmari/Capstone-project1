@@ -338,3 +338,168 @@ footer {
   margin: 50px 0;
   text-align: center;
 }
+
+@media (max-width: 766px) {
+  nav .logo {
+    display: none;
+  }
+
+  .user-bar {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .hamb-icon {
+    display: none;
+  }
+  
+  .user-bar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #272a31;
+    height: 35px;
+  }
+
+  .user-bar-link {
+    text-decoration: none;
+    font-family: 'lato', sans-serif;
+    font-weight: normal;
+    font-size: 17px;
+    color: #fff;
+    padding: 0 20px;
+    cursor: pointer;
+  }
+
+  .user-bar-smedia {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    padding: 0 20px;
+  }
+
+  nav {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 95px;
+    }
+
+  .menu-list.close {
+    display: none;
+  }
+
+  .menu-links {
+    display: flex;
+    position: static;
+    box-shadow: none;
+    border-radius: 0;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+  }
+
+  .menu-link {
+    font-size: 18px;
+    color: #272a31;
+    padding: 20px 15px;
+    margin: 0 15px;
+  }
+
+  .menu-list.homepage {
+    display: none;
+  }
+
+  .main-title::before {
+    font-size: 35px;
+  }
+
+  .main-title {
+    font-size: 75px;
+    margin-left: 13%;
+  }
+
+  .headline-description {
+    font-size: 35px;
+    margin: 0 12%;
+  }
+
+  .event-date {
+    font-size: 40px;
+    margin-left: 12%;
+  }
+
+  .main-program-title,
+  .speakers-section-title,
+  .partner-title {
+    font-size: 26px;
+  }
+
+  .program-list {
+    flex-direction: row;
+    margin: 30px 10%;
+  }
+
+  .lectures {
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+  }
+
+  .lectures-title {
+    font-size: 18px;
+  }
+
+  .lectures-description {
+    font-size: 17px;
+    padding: 0 10px;
+  }
+
+  .main-program-btn {
+    margin-top: 40px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid: repeat(2,1fr)/ repeat(2,1fr);
+  }
+
+  .speaker-img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .speaker-name {
+    font-size: 20px;
+  }
+
+  .speaker-about {
+    font-size: 18px;
+  }
+
+  .talk-about {
+    font-size: 16px;
+  }
+
+  .partner-img {
+    width: 200px;
+    height: 200px;
+    margin: 0 30px ;
+  }
+
+  .copy-right {
+    font-size: 18px;
+  }
+
+  .main-title.about-me-page {
+    margin: 25px 0;
+  }
+
+  .headline-description.about-me-page {
+    margin-bottom: 50px;
+    margin-top: 25px;
+  }
+
+}
