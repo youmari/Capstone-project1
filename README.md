@@ -1,53 +1,47 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Design & Content conference website
 
-> One paragraph statement about the project.
+> Conference website built for Capstone project.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./images/screen1.png)
+![screenshot](./images/screen2.png)
 
-Additional description about the project and its features.
+Conference website built with html, css and js.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTMl5
+- CSS3
+- Vanilla JavaScript
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo link ](youmari.github.io/capstone-project1/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
 
 ### Setup
 
+- Clone the project to your local computer by copy the ssh or https link
+
 ### Install
-
-### Usage
-
-### Run tests
+- You don't need to install anything after clonning  the project open index.html with the browser to see the website
 
 ### Deployment
 
+- The website is deployed using GitHub pages,
 
 
 ## Authors
 
 👤 **Youmari**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@youmari](https://github.com/youmari)
+- Twitter: [@yf_omari](https://twitter.com/yf_omari)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/yassine-omari-945114190/)
 
 
 ## 🤝 Contributing
@@ -62,9 +56,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Thanks to Cindy Shin The Designer of the website (https://www.behance.net/adagio07)
 
 ## 📝 License
 
