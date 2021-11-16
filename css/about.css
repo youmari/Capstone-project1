@@ -1,0 +1,70 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
+.contact-description {
+  font-family: 'lato', sans-serif;
+  font-size: 17px;
+  text-align: center;
+  margin: 10px 10px;
+  color: #272a31;
+}
+
+.mailto {
+  font-family: 'lato', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+  color: #272a31;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+.creative-logo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.creative-logo-title,
+.past-title {
+  font-family: 'lato', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 0 15px;
+  color: #272a31;
+}
+
+.creative-description,
+.past-description {
+  font-family: 'lato', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #272a31;
+  padding: 0 15px;
+}
+
+.past-events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.past-event-link {
+  text-decoration: none;
+  background-image: url(../images/last1.jpg);
+  background-repeat: no-repeat;
+  background-size: 350px 200px;
+  font-family: 'lato', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  line-height: 210px;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px 20%;
+  height: 200px;
+  width: 350px;
+}
+
+.past-event-link.s {
+  background-image: url(../images/last2.jpg);
+}
