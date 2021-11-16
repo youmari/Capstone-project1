@@ -30,7 +30,7 @@ header {
   padding-top: 40px;
   display: none;
   flex-direction: column;
-  box-shadow: #ec5242 10px 10px 90px  40px ;
+  box-shadow: #ec5242 10px 10px 90px  40px;
   margin: 0;
 }
 
@@ -50,7 +50,7 @@ header {
 }
 
 .menu-link {
-  font-family: 'COCOGOOSE', 'lato';
+  font-family: 'COCOGOOSE', sans-serif;
   font-weight: normal;
   text-transform: uppercase;
   font-size: 35px;
@@ -62,6 +62,7 @@ header {
 ul li {
   list-style-type: none;
 }
+
 header,
 .headline {
   background-image: url(../images/backg.jpg);
@@ -91,8 +92,8 @@ header,
   text-align: center;
 }
 
-.main-title{
-  font-family: 'COCOGOOSE', 'lato';
+.main-title {
+  font-family: 'COCOGOOSE', sans-serif;
   font-weight: normal;
   text-transform: uppercase;
   font-size: 35px;
@@ -110,7 +111,7 @@ header,
   padding: 10px;
   border: 2px solid #fff;
   align-self: center;
-  margin:0 15px;
+  margin: 0 15px;
   color: #272a31;
 }
 
@@ -123,7 +124,7 @@ header,
 .event-date {
   margin-left: 15px;
   color: #272a31;
-  font-family: 'COCOGOOSE', 'lato';
+  font-family: 'COCOGOOSE', sans-serif;
   font-weight: 600;
   font-size: 20px;
   margin-bottom: 50px;
@@ -139,7 +140,7 @@ header,
 }
 
 .main-program-title {
-  font-family: 'COCOGOOSE', 'lato';
+  font-family: 'COCOGOOSE', sans-serif;
   font-weight: normal;
   font-size: 20px;
   color: #fff;
@@ -163,7 +164,7 @@ header,
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color:hsla(0, 0%, 100%, 0.61);
+  background-color: hsla(0, 0%, 100%, 0.61);
   margin: 5px 15px;
 }
 
@@ -174,7 +175,7 @@ header,
 }
 
 .lectures-title {
-  font-family: 'COCOGOOSE', 'lato';
+  font-family: 'COCOGOOSE', sans-serif;
   font-weight: normal;
   font-size: 15px;
   color: #ec5242;
@@ -182,7 +183,7 @@ header,
 }
 
 .lectures-description {
-  margin:10px 0;
+  margin: 10px 0;
   font-family: 'lato', sans-serif;
   font-weight: normal;
   font-size: 14px;
@@ -197,7 +198,7 @@ header,
   color: #fff;
   border: none;
   margin: 5px 0 40px 0;
-  font-family: 'COCOGOOSE', 'lato';
+  font-family: 'COCOGOOSE', sans-serif;
   font-weight: normal;
   font-size: 15px;
   padding: 15px;
@@ -210,7 +211,7 @@ header,
 }
 
 .speakers-section-title {
-  font-family: 'COCOGOOSE', 'lato';
+  font-family: 'COCOGOOSE', sans-serif;
   font-weight: normal;
   font-size: 20px;
   color: #272a31;
@@ -250,7 +251,7 @@ header,
 }
 
 .speaker-name {
-  font-family: 'COCOGOOSE', 'lato';
+  font-family: 'COCOGOOSE', sans-serif;
   font-weight: normal;
   font-size: 18px;
   color: #272a31;
@@ -258,7 +259,7 @@ header,
 }
 
 .speaker-about {
-  font-family: 'COCOGOOSE', 'lato';
+  font-family: 'COCOGOOSE', sans-serif;
   font-weight: normal;
   font-size: 16px;
   color: #ec5242;
@@ -276,7 +277,7 @@ header,
 
 .talk-about {
   margin: 0;
-  font-family: 'COCOGOOSE', 'lato';
+  font-family: 'COCOGOOSE', sans-serif;
   font-weight: normal;
   font-size: 14px;
   color: #272a31;
@@ -293,7 +294,7 @@ header,
 }
 
 .partner-title {
-  font-family: 'COCOGOOSE', 'lato';
+  font-family: 'COCOGOOSE', sans-serif;
   font-weight: normal;
   font-size: 20px;
   color: #fff;
@@ -318,7 +319,7 @@ footer {
 
 .logo {
   text-decoration-line: none;
-  font-family: 'COCOGOOSE', 'lato';
+  font-family: 'COCOGOOSE', sans-serif;
   font-weight: normal;
   font-size: 20px;
   color: #ec5242;
@@ -331,7 +332,7 @@ footer {
 }
 
 .copy-right {
-  font-family: 'COCOGOOSE', 'lato';
+  font-family: 'COCOGOOSE', sans-serif;
   font-weight: normal;
   font-size: 14px;
   margin: 50px 0;
