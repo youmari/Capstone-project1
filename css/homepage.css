@@ -53,7 +53,7 @@ header {
   font-family: 'COCOGOOSE', sans-serif;
   font-weight: normal;
   text-transform: uppercase;
-  font-size: 35px;
+  font-size: 26px;
   color: #ec5242;
   text-decoration: none;
   cursor: pointer;
@@ -388,10 +388,14 @@ footer {
   }
 
   .menu-link {
-    font-size: 18px;
-    color: #272a31;
+    font-size: 13px;
+    color: #535353;
     padding: 20px 15px;
     margin: 0 15px;
+  }
+
+  .menu-link:hover {
+    color: #ec5242;
   }
 
   .menu-list.homepage {
