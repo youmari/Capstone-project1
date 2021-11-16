@@ -19,7 +19,44 @@ header {
 }
 
 .menu-links {
+  height: 85%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 0 0 10px 10px;
+  background-color: #fff;
+  padding-top: 40px;
   display: none;
+  flex-direction: column;
+  box-shadow: #ec5242 10px 10px 90px  40px ;
+  margin: 0;
+}
+
+.menu-list {
+  margin: 20px 0;
+}
+
+.hamb-close-btn {
+  width: 35px;
+  height: 35px;
+  padding-right: 20px;
+}
+
+.menu-list.close {
+  align-self: flex-end;
+  margin-top: 0;
+}
+
+.menu-link {
+  font-family: 'COCOGOOSE', 'lato';
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 35px;
+  color: #ec5242;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 ul li {
@@ -74,11 +111,13 @@ header,
   border: 2px solid #fff;
   align-self: center;
   margin:0 15px;
+  color: #272a31;
 }
 
 .headline-description.about-me-page {
   text-align: center;
   background-color: #fff;
+  color: #272a31;
 }
 
 .event-date {
@@ -147,6 +186,7 @@ header,
   font-family: 'lato', sans-serif;
   font-weight: normal;
   font-size: 14px;
+  color: #272a31;
 }
 
 .main-program-btn {
@@ -191,7 +231,6 @@ header,
   content: '';
   position: relative;
   top: -16px;
-  left: 10px;
 }
 
 .speaker-info {
