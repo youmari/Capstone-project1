@@ -16,7 +16,7 @@ Conference website built with html, css and js.
 
 ## Live Demo
 
-[Live Demo link ](youmari.github.io/capstone-project1/)
+[Live Demo link ](https://youmari.github.io/Capstone-project1/)
 
 
 ## Getting Started
