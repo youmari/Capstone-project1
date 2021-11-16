@@ -68,3 +68,31 @@
 .past-event-link.s {
   background-image: url(../images/last2.jpg);
 }
+
+@media (min-width: 768px) {
+  .contact-description,
+  .mailto {
+    font-size: 25px;
+  }
+
+  .creative-logo-title,
+  .past-title,
+  .creative-description,
+  .past-description {
+    font-size: 26px;
+    padding: 20px 10px;
+  }
+
+  .creative-logo-section,
+  .past-events {
+    padding: 50px 20px;
+  }
+
+  .past-event-link {
+    background-size: 700px 400px;
+    width: 700px;
+    height: 400px;
+    line-height: 400px;
+    font-size: 35px;
+  }
+}
