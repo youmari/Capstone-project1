@@ -167,7 +167,7 @@ header,
   align-items: center;
   background-color: hsla(0, 0%, 100%, 0.137);
   margin: 5px 3px;
-  max-width: 350px; 
+  max-width: 350px;
 }
 
 .lectures-img {
@@ -498,4 +498,3 @@ footer {
     margin-top: 25px;
   }
 }
-
