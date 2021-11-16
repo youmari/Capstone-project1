@@ -353,7 +353,7 @@ footer {
   .hamb-icon {
     display: none;
   }
-  
+
   .user-bar {
     width: 100%;
     display: flex;
@@ -385,7 +385,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     height: 95px;
-    }
+  }
 
   .menu-list.close {
     display: none;
@@ -463,7 +463,7 @@ footer {
 
   .grid-container {
     display: grid;
-    grid: repeat(2,1fr)/ repeat(2,1fr);
+    grid: repeat(2, 1fr)/ repeat(2, 1fr);
   }
 
   .speaker-img {
@@ -486,7 +486,7 @@ footer {
   .partner-img {
     width: 200px;
     height: 200px;
-    margin: 0 30px ;
+    margin: 0 30px;
   }
 
   .copy-right {
@@ -501,5 +501,4 @@ footer {
     margin-bottom: 50px;
     margin-top: 25px;
   }
-
 }
