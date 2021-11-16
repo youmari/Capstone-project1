@@ -227,7 +227,7 @@ header,
   display: block;
   width: 60px;
   height: 60px;
-  background-image:url(../images/chess.png);
+  background-image: url(../images/chess.png);
   background-size: contain;
   content: '';
   position: relative;
