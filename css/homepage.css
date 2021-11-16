@@ -232,7 +232,7 @@ header,
   justify-self: flex-start;
   width: 100px;
   height: 100px;
-  z-index: 10;
+  z-index: 5;
   margin: 0 15px;
 }
 

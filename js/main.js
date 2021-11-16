@@ -17,39 +17,31 @@ const speakerData = [
     img: '../images/speakers/a.jpeg',
     name: 'ALEXANDER J. DAVIS-GRIMES',
     about: 'PRODUCT DESIGNER, LINKEDIN',
-    talk: ` CREATE THE CAREER YOU’RE LOOKING FOR
-            A design professional with
-            the ability to communicate and empathize with users.`,
+    talk: ' CREATE THE CAREER YOU’RE LOOKING FOR A design professional with the ability to communicate and empathize with users.',
   },
   {
     img: '../images/speakers/b.jpg',
     name: 'ANDREW KUMAR',
-    about: 'DIRECTOR, PLATFORM STRATEGY, CONTENTFUL	',
-    talk: `  THE CONSEQUENCES OF UX THEATRE
-							Andrew is a global leader of high-performing and diverse digital teams`,
+    about: 'DIRECTOR, PLATFORM STRATEGY, CONTENTFUL',
+    talk: '  THE CONSEQUENCES OF UX THEATRE Andrew is a global leader of high-performing and diverse digital teams',
   },
   {
     img: '../images/speakers/c.jpg',
     name: 'ANDY WELFLE',
     about: 'UX CONTENT STRATEGY MANAGER, ADOBE',
-    talk: `MAIN BEDROOMS AND SECONDARY BRANCHES: IT’S TIME TO SCRUB THE LANGUAGE OF
-						OPPRESSION OUT OF OUR PRODUCTS.`,
+    talk: 'MAIN BEDROOMS AND SECONDARY BRANCHES: IT’S TIME TO SCRUB THE LANGUAGE OF OPPRESSION OUT OF OUR PRODUCTS.',
   },
   {
     img: '../images/speakers/d.jpg',
     name: 'ARIBA JAHAN',
     about: 'VP, DESIGN & INNOVATION STRATEGY',
-    talk: `WE CAN’T EMPATHIZE OUR WAY OUT OF PRIVILEGE
-						Ariba is a biomechanical engineer turned innovation and design
-						strategist focused on creating social impact.`,
+    talk: 'WE CAN’T EMPATHIZE OUR WAY OUT OF PRIVILEGE Ariba is a biomechanical engineer turned innovation and design strategist focused on creating social impact.',
   },
   {
     img: '../images/speakers/e.jpg',
     name: 'BEN CALLAHAN',
     about: 'PRESIDENT, SPARKBOX',
-    talk: `A MATURITY MODEL FOR DESIGN SYSTEMS
-					Ben has years of experience in standards-based
-					web development and design systems.`,
+    talk: 'A MATURITY MODEL FOR DESIGN SYSTEMS Ben has years of experience in standards-based web development and design systems.',
   },
   {
     img: '../images/speakers/f.jpg',
