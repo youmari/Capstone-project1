@@ -14,7 +14,7 @@ exitIcon.addEventListener('click', () => {
 // the code below for generate speakers dynamically
 const speakerData = [
   {
-    img: '../images/speakers/a.jpeg',
+    img: './images/speakers/a.jpeg',
     name: 'ALEXANDER J. DAVIS-GRIMES',
     about: 'PRODUCT DESIGNER, LINKEDIN',
     talk: ' CREATE THE CAREER YOU’RE LOOKING FOR A design professional with the ability to communicate and empathize with users.',
