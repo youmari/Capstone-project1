@@ -150,8 +150,9 @@ header,
 }
 
 .program-list {
-  margin: 0;
-  padding: 0;
+  margin: 0 10px;
+  margin-top: 40px;
+  padding:0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -164,9 +165,8 @@ header,
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin: 8px 0;
   background-color: rgba(255, 255, 255, 0.123);
-  max-height: 65px;
+  margin: 4.5px 0;
 }
 
 .lectures-img {
@@ -180,15 +180,15 @@ header,
   font-size: 15px;
   color: #fd513e;
   text-align: center;
-  margin: 0;
-  padding: 15px 5px;
-  min-width: 44px;
+  min-width: 69px;
+  margin: 0 5px;
+
 }
 
 .lectures-description {
   margin: 20px;
   font-family: 'lato', sans-serif;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 400;
   color: #fff;
 }
@@ -200,7 +200,7 @@ header,
   background-color: #ec5242;
   color: #fff;
   border: none;
-  margin: 5px 0 40px 0;
+  margin: 30px 0 40px 0;
   font-family: 'COCOGOOSE', sans-serif;
   font-weight: normal;
   font-size: 15px;
@@ -300,6 +300,13 @@ header,
   width: 100px;
   height: 100px;
   margin: 0 15px;
+  filter: grayscale(1);
+  transition: transform 300ms ease-in;
+}
+
+.partner-img:hover {
+  transform: scale(1.1);
+  filter: none;
 }
 
 footer {
@@ -434,23 +441,26 @@ footer {
 
   .program-list {
     flex-direction: row;
-    margin: 25px 1%;
+    max-width: none;
+    min-height: 300px;
+    margin: 0 2%;
   }
 
   .lectures {
     flex-direction: column;
-    justify-content: space-around;
-    height: 200px;
-    max-width: 170px;
+    align-items: center;
+    margin: 0 2px;
+    min-height: 260px;
+    max-width: 215px;
   }
 
   .lectures-title {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .lectures-description {
-    font-size: 14px;
-    padding: 0 10px;
+    margin: 11px;
+    font-size: 16px;
   }
 
   .main-program-btn {
@@ -481,8 +491,8 @@ footer {
   }
 
   .partner-img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin: 0 30px;
   }
 
