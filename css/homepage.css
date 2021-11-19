@@ -14,35 +14,6 @@ body {
   cursor: pointer;
 }
 
-.menu-links {
-  height: 95%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border-radius: 0 0 10px 10px;
-  background-color: rgba(0, 0, 0, 0.685);
-  padding-top: 40px;
-  display: none;
-  flex-direction: column;
-  margin: 0;
-  z-index: 100;
-  backdrop-filter: blur(10px);
-  animation: menu 400ms cubic-bezier(0.57,-0.01, 0.15, 1.03) both;
-}
-
-@keyframes menu {
-  0% {
-    transform: translate(-100%);
-  }
-
-  100% {
-    transform: translate(0%);
-  }
-  
-}
-
 .menu-list {
   margin: 15px 0;
 }
@@ -355,6 +326,27 @@ footer {
 
   .user-bar {
     display: none;
+  }
+
+  .menu-links {
+    height: 95%;
+    position: fixed;
+    top: -150%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.685);
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+    transition: top 400ms cubic-bezier(0.57,-0.01, 0.15, 1.03);
+  }
+
+  .open {
+    top: 0;
   }
 }
 

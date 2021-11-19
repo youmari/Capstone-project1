@@ -4,11 +4,12 @@ const menu = document.querySelector('.menu-links');
 const exitIcon = document.querySelector('.hamb-close-btn');
 
 menuIcon.addEventListener('click', () => {
-  menu.style.display = 'flex';
+  menu.classList.toggle("open");
 });
 
 exitIcon.addEventListener('click', () => {
-  menu.style.display = 'none';
+  menu.classList.toggle("open");
+
 });
 
 // the code below for generate speakers dynamically
