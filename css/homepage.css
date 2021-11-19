@@ -15,28 +15,41 @@ body {
 }
 
 .menu-links {
-  height: 85%;
+  height: 95%;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   border-radius: 0 0 10px 10px;
-  background-color: #fff;
+  background-color: rgba(0, 0, 0, 0.685);
   padding-top: 40px;
   display: none;
   flex-direction: column;
-  box-shadow: #ec5242 10px 10px 90px  40px;
   margin: 0;
+  z-index: 100;
+  backdrop-filter: blur(10px);
+  animation: menu 400ms cubic-bezier(0.57,-0.01, 0.15, 1.03) both;
+}
+
+@keyframes menu {
+  0% {
+    transform: translate(-100%);
+  }
+
+  100% {
+    transform: translate(0%);
+  }
+  
 }
 
 .menu-list {
-  margin: 20px 0;
+  margin: 15px 0;
 }
 
 .hamb-close-btn {
-  width: 35px;
-  height: 35px;
+  width: 20px;
+  height: 20px;
   padding-right: 20px;
 }
 
@@ -49,7 +62,7 @@ body {
   font-family: 'COCOGOOSE', sans-serif;
   font-weight: normal;
   text-transform: uppercase;
-  font-size: 26px;
+  font-size: 18px;
   color: #ec5242;
   text-decoration: none;
   cursor: pointer;
@@ -59,8 +72,8 @@ ul li {
   list-style-type: none;
 }
 
-header,
-.headline {
+.headline,
+nav {
   background-image: url(../images/backg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -234,7 +247,6 @@ header,
   justify-self: flex-start;
   width: 100px;
   height: 100px;
-  z-index: 5;
   margin: 0 15px;
 }
 
@@ -277,7 +289,7 @@ header,
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #272a31;
+  background-color: #424146;
   background-image: url(../images/program.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -347,6 +359,10 @@ footer {
 }
 
 @media (min-width: 768px) {
+  nav {
+    background: #fff;
+  }
+  
   .hamb-icon {
     display: none;
   }
@@ -356,22 +372,22 @@ footer {
     display: flex;
     justify-content: flex-end;
     background-color: #272a31;
-    height: 35px;
+    height: 32px;
   }
 
   .user-bar-link {
     text-decoration: none;
     font-family: 'lato', sans-serif;
     font-weight: normal;
-    font-size: 17px;
+    font-size: 14px;
     color: #fff;
     padding: 0 20px;
     cursor: pointer;
   }
 
   .user-bar-smedia {
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     cursor: pointer;
     padding: 0 20px;
   }
