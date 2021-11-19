@@ -6,10 +6,6 @@ body {
   padding: 0;
 }
 
-header {
-  width: 100%;
-}
-
 .hamb-icon {
   width: 30px;
   height: 30px;
@@ -134,15 +130,14 @@ header,
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   background-image: url(../images/program.jpg);
-  background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
+  background-repeat: no-repeat;
 }
 
 .main-program-title {
   font-family: 'COCOGOOSE', sans-serif;
-  font-weight: normal;
   font-size: 20px;
   color: #fff;
 }
@@ -155,41 +150,47 @@ header,
 }
 
 .program-list {
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0;
+  justify-content: center;
+  max-width: 519px;
+  min-height: 117px;
 }
 
 .lectures {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  background-color: hsla(0, 0%, 100%, 0.137);
-  margin: 5px 3px;
-  max-width: 350px;
+  margin: 8px 0;
+  background-color: rgba(255, 255, 255, 0.123);
+  max-height: 65px;
 }
 
 .lectures-img {
-  width: 40px;
-  height: 40px;
-  margin: 0 10px;
+  width: 35px;
+  height: 35px;
+  padding: 0 15px;
 }
 
 .lectures-title {
   font-family: 'COCOGOOSE', sans-serif;
-  font-weight: normal;
   font-size: 15px;
   color: #fd513e;
-  margin: 0 10px;
+  text-align: center;
+  margin: 0;
+  padding: 15px 5px;
+  min-width: 44px;
 }
 
 .lectures-description {
-  margin: 10px 0;
+  margin: 20px;
   font-family: 'lato', sans-serif;
-  font-weight: normal;
-  font-size: 14px;
-  color: rgb(255, 248, 248);
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
 }
 
 .main-program-btn {
@@ -214,7 +215,6 @@ header,
 
 .speakers-section-title {
   font-family: 'COCOGOOSE', sans-serif;
-  font-weight: normal;
   font-size: 20px;
   color: #272a31;
 }
@@ -374,7 +374,8 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 95px;
+    height: 64px;
+    box-shadow: inset #d3d3d3 1px 1px 7px 0px;
   }
 
   .menu-list.close {
@@ -433,7 +434,7 @@ footer {
 
   .program-list {
     flex-direction: row;
-    margin: 30px 1%;
+    margin: 25px 1%;
   }
 
   .lectures {
@@ -448,7 +449,7 @@ footer {
   }
 
   .lectures-description {
-    font-size: 17px;
+    font-size: 14px;
     padding: 0 10px;
   }
 
