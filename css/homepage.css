@@ -205,7 +205,6 @@ nav {
 
 .speaker-container {
   display: flex;
-  justify-content: flex-start;
   margin: 40px 0;
 }
 
@@ -214,11 +213,23 @@ nav {
   flex-direction: column;
 }
 
+.deco-img {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: -16px;
+  left: 60px;
+  z-index: 0;
+  margin: 0;
+  padding: 0;
+}
+
 .speaker-img {
   justify-self: flex-start;
   width: 100px;
   height: 100px;
   margin: 0 15px;
+  z-index: 2;
 }
 
 .speaker-name {
@@ -347,6 +358,11 @@ footer {
 
   .open {
     top: 0;
+  }
+  
+  .speaker-container {
+    position: relative;
+    right: 40px;
   }
 }
 
