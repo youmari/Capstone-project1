@@ -502,6 +502,11 @@ footer {
     height: 150px;
   }
 
+  .deco-img {
+    width: 70px;
+    height: 80px;
+  }
+
   .speaker-name {
     font-size: 20px;
   }
