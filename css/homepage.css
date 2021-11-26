@@ -311,15 +311,12 @@ footer {
 .logo {
   text-decoration-line: none;
   font-family: 'COCOGOOSE', sans-serif;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 20px;
   color: #ec5242;
   padding: 10px 10px;
-  background-color: #272a31;
   text-align: center;
-  border-radius: 4px;
   margin: 30px 10px;
-  line-height: 30px;
 }
 
 .copy-right {
@@ -366,7 +363,7 @@ footer {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 766px) {
   nav {
     background: #fff;
   }
@@ -443,13 +440,15 @@ footer {
   }
 
   .main-title {
-    font-size: 75px;
-    margin-left: 13%;
+    font-size: 50px;
+    margin: 2em;
+    margin-bottom: 0;
   }
 
   .headline-description {
-    font-size: 35px;
-    margin: 0 12%;
+    font-size: 25px;
+    margin: 3em;
+    margin-top: 1.5em;
   }
 
   .event-date {
