@@ -83,6 +83,7 @@ nav {
 
 .main-title.about-me-page {
   text-align: center;
+  margin: 0 4%;
 }
 
 .headline-description {
@@ -527,7 +528,7 @@ footer {
   }
 
   .main-title.about-me-page {
-    margin: 25px 0;
+    margin: 25px 5%;
   }
 
   .headline-description.about-me-page {
