@@ -137,7 +137,7 @@ nav {
 .program-list {
   margin: 0 10px;
   margin-top: 40px;
-  padding:0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -167,7 +167,6 @@ nav {
   text-align: center;
   min-width: 69px;
   margin: 0 5px;
-
 }
 
 .lectures-description {
@@ -351,13 +350,13 @@ footer {
     margin: 0;
     z-index: 100;
     backdrop-filter: blur(10px);
-    transition: top 400ms cubic-bezier(0.57,-0.01, 0.15, 1.03);
+    transition: top 400ms cubic-bezier(0.57, -0.01, 0.15, 1.03);
   }
 
   .open {
     top: 0;
   }
-  
+
   .speaker-container {
     position: relative;
     right: 40px;
@@ -367,8 +366,14 @@ footer {
 @media (min-width: 766px) {
   nav {
     background: #fff;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 64px;
+    box-shadow: inset #d3d3d3 1px 1px 7px 0px;
   }
-  
+
   .hamb-icon {
     display: none;
   }
@@ -398,15 +403,6 @@ footer {
     padding: 0 20px;
   }
 
-  nav {
-    background-color: #fff;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 64px;
-    box-shadow: inset #d3d3d3 1px 1px 7px 0px;
-  }
-
   .menu-list.close {
     display: none;
   }
@@ -415,7 +411,6 @@ footer {
     display: flex;
     position: static;
     box-shadow: none;
-    border-radius: 0;
     flex-direction: row;
     justify-content: space-around;
     padding: 0;

@@ -67,18 +67,18 @@
   margin: 0 10px 20px 10px;
 }
 
- .logo-con {
-    width: 300px;
-    height: 100px;
-    border: 2px solid rgb(194, 194, 194);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.logo-con {
+  width: 300px;
+  height: 100px;
+  border: 2px solid rgb(194, 194, 194);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 @media (min-width: 856px) {
   .past-event-link,
-   .past-event-lc a {
+  .past-event-lc a {
     width: 400px;
     height: 250px;
     font-size: 24px;
