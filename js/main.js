@@ -4,11 +4,11 @@ const menu = document.querySelector('.menu-links');
 const exitIcon = document.querySelector('.hamb-close-btn');
 
 menuIcon.addEventListener('click', () => {
-  menu.style.display = 'flex';
+  menu.classList.toggle('open');
 });
 
 exitIcon.addEventListener('click', () => {
-  menu.style.display = 'none';
+  menu.classList.toggle('open');
 });
 
 // the code below for generate speakers dynamically
@@ -59,11 +59,13 @@ speakerData.forEach((Element, i) => {
   const aboutSpeaker = document.createElement('p');
   const talkAboutSpeaker = document.createElement('p');
   const divStyle = document.createElement('div');
+  const imgDecoration = document.createElement('img');
 
   gridContainer.append(speakerContainer);
   speakerContainer.classList.add('speaker-container');
-  speakerContainer.append(divStyle, imgSpeaker, divSpeaker);
+  speakerContainer.append(divStyle, imgDecoration, imgSpeaker, divSpeaker);
   imgSpeaker.classList.add('speaker-img');
+  imgDecoration.classList.add('deco-img');
   divSpeaker.classList.add('speaker-info');
   divStyle.classList.add('for-style');
   divSpeaker.append(nameSpeaker, aboutSpeaker, talkAboutSpeaker);
@@ -72,6 +74,7 @@ speakerData.forEach((Element, i) => {
   talkAboutSpeaker.classList.add('talk-about');
 
   imgSpeaker.src = speakerData[i].img;
+  imgDecoration.src = './images/Fra.png';
   nameSpeaker.textContent = speakerData[i].name;
   aboutSpeaker.textContent = speakerData[i].about;
   talkAboutSpeaker.textContent = speakerData[i].talk;

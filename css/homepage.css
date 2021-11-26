@@ -6,10 +6,6 @@ body {
   padding: 0;
 }
 
-header {
-  width: 100%;
-}
-
 .hamb-icon {
   width: 30px;
   height: 30px;
@@ -18,29 +14,13 @@ header {
   cursor: pointer;
 }
 
-.menu-links {
-  height: 85%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border-radius: 0 0 10px 10px;
-  background-color: #fff;
-  padding-top: 40px;
-  display: none;
-  flex-direction: column;
-  box-shadow: #ec5242 10px 10px 90px  40px;
-  margin: 0;
-}
-
 .menu-list {
-  margin: 20px 0;
+  margin: 15px 0;
 }
 
 .hamb-close-btn {
-  width: 35px;
-  height: 35px;
+  width: 20px;
+  height: 20px;
   padding-right: 20px;
 }
 
@@ -53,7 +33,7 @@ header {
   font-family: 'COCOGOOSE', sans-serif;
   font-weight: normal;
   text-transform: uppercase;
-  font-size: 26px;
+  font-size: 18px;
   color: #ec5242;
   text-decoration: none;
   cursor: pointer;
@@ -63,8 +43,8 @@ ul li {
   list-style-type: none;
 }
 
-header,
-.headline {
+.headline,
+nav {
   background-image: url(../images/backg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -103,6 +83,7 @@ header,
 
 .main-title.about-me-page {
   text-align: center;
+  margin: 0 4%;
 }
 
 .headline-description {
@@ -134,15 +115,14 @@ header,
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   background-image: url(../images/program.jpg);
-  background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
+  background-repeat: no-repeat;
 }
 
 .main-program-title {
   font-family: 'COCOGOOSE', sans-serif;
-  font-weight: normal;
   font-size: 20px;
   color: #fff;
 }
@@ -155,41 +135,46 @@ header,
 }
 
 .program-list {
+  margin: 0 10px;
+  margin-top: 40px;
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0;
+  justify-content: center;
+  max-width: 519px;
+  min-height: 117px;
 }
 
 .lectures {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  background-color: hsla(0, 0%, 100%, 0.137);
-  margin: 5px 3px;
-  max-width: 350px;
+  background-color: rgba(255, 255, 255, 0.123);
+  margin: 4.5px 0;
 }
 
 .lectures-img {
-  width: 40px;
-  height: 40px;
-  margin: 0 10px;
+  width: 35px;
+  height: 35px;
+  padding: 0 15px;
 }
 
 .lectures-title {
   font-family: 'COCOGOOSE', sans-serif;
-  font-weight: normal;
   font-size: 15px;
   color: #fd513e;
-  margin: 0 10px;
+  text-align: center;
+  min-width: 69px;
+  margin: 0 5px;
 }
 
 .lectures-description {
-  margin: 10px 0;
+  margin: 20px;
   font-family: 'lato', sans-serif;
-  font-weight: normal;
-  font-size: 14px;
-  color: rgb(255, 248, 248);
+  font-size: 13px;
+  font-weight: 400;
+  color: #fff;
 }
 
 .main-program-btn {
@@ -199,7 +184,7 @@ header,
   background-color: #ec5242;
   color: #fff;
   border: none;
-  margin: 5px 0 40px 0;
+  margin: 30px 0 40px 0;
   font-family: 'COCOGOOSE', sans-serif;
   font-weight: normal;
   font-size: 15px;
@@ -214,14 +199,12 @@ header,
 
 .speakers-section-title {
   font-family: 'COCOGOOSE', sans-serif;
-  font-weight: normal;
   font-size: 20px;
   color: #272a31;
 }
 
 .speaker-container {
   display: flex;
-  justify-content: flex-start;
   margin: 40px 0;
 }
 
@@ -230,12 +213,23 @@ header,
   flex-direction: column;
 }
 
+.deco-img {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: -16px;
+  left: 60px;
+  z-index: 0;
+  margin: 0;
+  padding: 0;
+}
+
 .speaker-img {
   justify-self: flex-start;
   width: 100px;
   height: 100px;
-  z-index: 5;
   margin: 0 15px;
+  z-index: 2;
 }
 
 .speaker-name {
@@ -277,7 +271,7 @@ header,
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #272a31;
+  background-color: #424146;
   background-image: url(../images/program.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -300,6 +294,13 @@ header,
   width: 100px;
   height: 100px;
   margin: 0 15px;
+  filter: grayscale(1);
+  transition: transform 300ms ease-in;
+}
+
+.partner-img:hover {
+  transform: scale(1.1);
+  filter: none;
 }
 
 footer {
@@ -310,15 +311,12 @@ footer {
 .logo {
   text-decoration-line: none;
   font-family: 'COCOGOOSE', sans-serif;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 20px;
   color: #ec5242;
   padding: 10px 10px;
-  background-color: #272a31;
   text-align: center;
-  border-radius: 4px;
   margin: 30px 10px;
-  line-height: 30px;
 }
 
 .copy-right {
@@ -337,9 +335,45 @@ footer {
   .user-bar {
     display: none;
   }
+
+  .menu-links {
+    height: 95%;
+    position: fixed;
+    top: -150%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.685);
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+    transition: top 400ms cubic-bezier(0.57, -0.01, 0.15, 1.03);
+  }
+
+  .open {
+    top: 0;
+  }
+
+  .speaker-container {
+    position: relative;
+    right: 40px;
+  }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 766px) {
+  nav {
+    background: #fff;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 64px;
+    box-shadow: inset #d3d3d3 1px 1px 7px 0;
+  }
+
   .hamb-icon {
     display: none;
   }
@@ -349,32 +383,24 @@ footer {
     display: flex;
     justify-content: flex-end;
     background-color: #272a31;
-    height: 35px;
+    height: 32px;
   }
 
   .user-bar-link {
     text-decoration: none;
     font-family: 'lato', sans-serif;
     font-weight: normal;
-    font-size: 17px;
+    font-size: 14px;
     color: #fff;
     padding: 0 20px;
     cursor: pointer;
   }
 
   .user-bar-smedia {
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     cursor: pointer;
     padding: 0 20px;
-  }
-
-  nav {
-    background-color: #fff;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 95px;
   }
 
   .menu-list.close {
@@ -385,7 +411,6 @@ footer {
     display: flex;
     position: static;
     box-shadow: none;
-    border-radius: 0;
     flex-direction: row;
     justify-content: space-around;
     padding: 0;
@@ -411,13 +436,15 @@ footer {
   }
 
   .main-title {
-    font-size: 75px;
-    margin-left: 13%;
+    font-size: 50px;
+    margin: 2em;
+    margin-bottom: 0;
   }
 
   .headline-description {
-    font-size: 35px;
-    margin: 0 12%;
+    font-size: 25px;
+    margin: 3em;
+    margin-top: 1.5em;
   }
 
   .event-date {
@@ -433,23 +460,26 @@ footer {
 
   .program-list {
     flex-direction: row;
-    margin: 30px 1%;
+    max-width: none;
+    min-height: 300px;
+    margin: 0 2%;
   }
 
   .lectures {
     flex-direction: column;
-    justify-content: space-around;
-    height: 200px;
-    max-width: 170px;
+    align-items: center;
+    margin: 0 2px;
+    min-height: 260px;
+    max-width: 215px;
   }
 
   .lectures-title {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .lectures-description {
-    font-size: 17px;
-    padding: 0 10px;
+    margin: 11px;
+    font-size: 16px;
   }
 
   .main-program-btn {
@@ -467,6 +497,11 @@ footer {
     height: 150px;
   }
 
+  .deco-img {
+    width: 70px;
+    height: 80px;
+  }
+
   .speaker-name {
     font-size: 20px;
   }
@@ -480,8 +515,6 @@ footer {
   }
 
   .partner-img {
-    width: 200px;
-    height: 200px;
     margin: 0 30px;
   }
 
@@ -490,7 +523,7 @@ footer {
   }
 
   .main-title.about-me-page {
-    margin: 25px 0;
+    margin: 25px 5%;
   }
 
   .headline-description.about-me-page {
