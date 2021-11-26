@@ -67,6 +67,15 @@
   margin: 0 10px 20px 10px;
 }
 
+ .logo-con {
+    width: 300px;
+    height: 100px;
+    border: 2px solid rgb(194, 194, 194);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 @media (min-width: 856px) {
   .past-event-link,
    .past-event-lc a {
@@ -105,10 +114,6 @@
   .logo-con {
     width: 400px;
     height: 160px;
-    border: 2px solid rgb(194, 194, 194);
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   footer.footer-about {
