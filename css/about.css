@@ -56,23 +56,24 @@
 }
 
 .past-event-link {
-  text-decoration: none;
-  background-image: url(../images/last1.jpg);
-  background-repeat: no-repeat;
-  background-size: 350px 200px;
-  font-family: 'lato', sans-serif;
-  font-size: 19px;
-  text-align: center;
-  line-height: 156px;
-  color: #fff;
-  cursor: pointer;
-  margin: 10px 20%;
-  height: 150px;
   width: 300px;
+  height: 180px;
 }
 
-.past-event-link.s {
-  background-image: url(../images/last2.jpg);
+.past-event-lc a {
+  text-decoration: none;
+  text-align: center;
+  width: 300px;
+  margin: 0 10px 20px 10px;
+}
+
+@media (min-width: 856px) {
+  .past-event-link,
+   .past-event-lc a {
+    width: 400px;
+    height: 250px;
+    font-size: 24px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -94,19 +95,11 @@
     padding: 50px 20px;
   }
 
-  .past-event-link {
-    background-size: 407px 231px;
-    width: 407px;
-    height: 231px;
-    line-height: 213px;
-    font-size: 24px;
-    margin: 0 5px;
-  }
-
   .past-event-lc {
     height: 400px;
     flex-direction: row;
     justify-content: center;
+    margin: 0 60px;
   }
 
   .logo-con {
