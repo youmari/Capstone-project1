@@ -371,7 +371,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     height: 64px;
-    box-shadow: inset #d3d3d3 1px 1px 7px 0px;
+    box-shadow: inset #d3d3d3 1px 1px 7px 0;
   }
 
   .hamb-icon {
